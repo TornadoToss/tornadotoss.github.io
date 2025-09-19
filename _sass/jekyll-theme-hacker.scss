@@ -354,3 +354,25 @@ a {
   display: block;
   border-radius: 8px; /* Optional: adds rounded corners to images */
 }
+
+/* --- Responsive Design for Mobile --- */
+@media (max-width: 768px) {
+  .feature-row,
+  .feature-row:nth-child(even) {
+    flex-direction: column; 
+  }
+  
+  .text-content {
+    order: 1; 
+	
+  }
+
+  .image-content {
+    order: 2;
+	margin-bottom: 10px;
+  }
+
+  .feature-row:nth-child(even) .text-content {
+    order: 1;
+  }
+}
