@@ -12,6 +12,8 @@ layout: default
 Mixed Signals was developed in Godot, primarily using C# with some GDScript, as part of university coursework in my third year. I worked in a team of 8, as the lead programmer of two."
   image="/assets/images/mixsig.gif"
   alt="Gameplay of Mixed Signals."
+  gitlink="https://github.com/TornadoToss/315-mixed-signals"
+  itchlink="https://teambloodbox.itch.io/mixed-signals"
 %}
 
 {% include feature-row.html
@@ -28,6 +30,7 @@ Mixed Signals was developed in Godot, primarily using C# with some GDScript, as 
 - Model loading"
   image="/assets/images/lake.gif"
   alt="A showcase of the mountain lake scene."
+  gitlink="https://github.com/TornadoToss/DX11-MountainLake"
 %}
 
 {% include feature-row.html

@@ -2,7 +2,17 @@
   <div class="text-content">
     {{ include.content | markdownify }}
   </div>
-  <div class="image-content">
-    <img src="{{ include.image }}" alt="{{ include.alt }}">
+  <div class="image-buttons-content">
+	<div class="image-content">
+		<img src="{{ include.image }}" alt="{{ include.alt }}">
+	</div>
+	<div class="buttons-content">
+		{% if include.gitlink %}
+		<a href="{{ include.gitlink }}" class="btn btn-github"><span class="icon"></span>{%if include.gitname%}{{include.gitname}}{%else%}Github{%endif%}</a>
+		{% endif %}
+		{% if include.itchlink %}
+		<a href="{{ include.itchlink }}" class="btn btn-itch"><span class="icon"></span>{%if include.itchname%}{{include.itchname}}{%else%}itch.io{%endif%}</a>
+		{% endif %}
+	</div>
   </div>
 </div>

@@ -290,6 +290,11 @@ hr {
   background: url("../images/mailicon.png") 0 0 no-repeat;
 }
 
+.btn-itch .icon {
+  opacity: 0.6;
+  background: url("../images/itchicon.png") 0 0 no-repeat;
+}
+
 /* Links
    a, a:hover, a:visited
 */
@@ -343,12 +348,16 @@ a {
 
 /* Styling for the text and image containers within a row */
 .text-content,
-.image-content {
+.image-buttons-content {
   flex: 1; /* This makes both containers take up equal space */
 }
 
+.image-content {
+  margin-bottom: 20px
+}
+
 /* Ensure images scale correctly within their container */
-.image-content img {
+.image-buttons-content img {
   width: 100%;
   height: auto;
   display: block;
@@ -367,7 +376,7 @@ a {
 	
   }
 
-  .image-content {
+  .image-buttons-content {
     order: 2;
 	margin-bottom: 10px;
   }
