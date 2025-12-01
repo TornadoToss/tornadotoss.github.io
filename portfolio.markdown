@@ -9,7 +9,9 @@ layout: default
   content="## Mixed Signals
 ### A narrative-focused puzzle game.
   
-Mixed Signals was developed in Godot, primarily using C# with some GDScript, as part of university coursework in my third year. I worked in a team of 8, as the lead programmer of two."
+Mixed Signals was developed in Godot, primarily using C# with some GDScript, as part of university coursework in my third year. I worked in a team of 8, where I was one of two programmers.
+
+I was responsible for developing many core mechanics, such as the transponding and translation minigames, overworld movement and interactions, game and progression states, dialogue, controller integration and general user interface."
   image="/assets/images/mixsig.gif"
   alt="Gameplay of Mixed Signals."
   gitlink="https://github.com/TornadoToss/315-mixed-signals"
@@ -46,6 +48,7 @@ Developed using the SFML library in my first year of university. Players slay gh
 - Efficient object management"
   image="/assets/images/bbb.gif"
   alt="Gameplay of Broke, Breaking and Broken."
+  gitlink="https://github.com/TornadoToss/broke-breaking-broken"
 %}
 
 {% include feature-row.html
@@ -56,6 +59,7 @@ Developed using the SFML library in my first year of university. Players slay gh
   Contains features for testing the AI's performance with a variety of tweakable parameters."
   image="/assets/images/mcts.gif"
   alt="Me playing the MCTS AI at Connect 4 (and losing)"
+  gitlink="https://github.com/TornadoToss/C4-MCTS"
 %}
 
 {% include feature-row.html
